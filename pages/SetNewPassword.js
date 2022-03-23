@@ -58,6 +58,7 @@ function SetNewPassword() {
                     <span>Remeber your password ?</span>
                     <a href="#"> Sign in</a>
                 </div>
+                <div></div>
             </div>
         </SetNewPasswordForm>
     );
@@ -106,7 +107,7 @@ const SetNewPasswordForm = styled.div`
     .btn-snwp {
         margin-top: 20px;
     }
-
+    
 `;
 
 export default SetNewPassword;
