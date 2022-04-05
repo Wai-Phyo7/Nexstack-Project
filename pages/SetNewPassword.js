@@ -4,18 +4,15 @@ import { FaUnlockAlt } from "react-icons/fa";
 function SetNewPassword() {
     return (
         <SetNewPasswordForm className="forget-password-container">
-            <div className="snwp-left-container">
-                <img
-                    className="ufp-img"
-                    src="/images/undraw_authentication_re_svpt.png"
-                />
+            <div className="snpw-left-container">
+                <img className="snpw-img" src="/images/nexstack_logo.png" />
             </div>
-            <div className="fp-right-container">
+            <div className="snpw-right-container">
                 <div className="header-container">
-                    <div className="snwp-logo">
+                    <div className="snpw-logo">
                         <img className="wp-img" src="/images/password.png" />
                     </div>
-                    <span className="fp-text">Set New Password</span>
+                    <span className="snpw-text">Set New Password</span>
                 </div>
                 <div className="body-container">
                     <form className="form-control">
@@ -23,6 +20,7 @@ function SetNewPassword() {
                             <input
                                 type="password"
                                 placeholder="New Password"
+                                required
                             />
                             <FaUnlockAlt className="fa-unlock-icon" />
                         </div>
@@ -44,6 +42,7 @@ function SetNewPassword() {
                             <input
                                 type="password"
                                 placeholder="Confirm New Password"
+                                required
                             />
                             <FaUnlockAlt className="fa-unlock-icon" />
                         </div>
@@ -51,7 +50,9 @@ function SetNewPassword() {
                             <span>password strength:</span>
                             <a href="#"> strong</a>
                         </div>
-                        <button className="btn-reset btn-snwp">Reset Password</button>
+                        <button className="btn-reset btn-snpw">
+                            Reset Password
+                        </button>
                     </form>
                 </div>
                 <div className="footer-container-snpw">
@@ -71,43 +72,6 @@ const SetNewPasswordForm = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-
-    .snpw-list-container {
-        margin-left: 20px;
-        font-size: 10px;
-        color: #172b4d;
-        margin-bottom: 12px;
-    }
-
-    .snpw-list-style li {
-        list-style-type: disc;
-        margin-left: 20px;
-        line-height: 15px;
-    }
-
-    .pw-strenght {
-        margin-left: 5px;
-        font-size: 13px;
-        font-weight: bold;
-        font-style: italic;
-        color: #8898AA;
-
-    }
-
-    .pw-strenght a {
-        color: #2DCE89;
-        text-decoration: none;
-    }
-
-    .footer-container-snpw {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    .btn-snwp {
-        margin-top: 20px;
-    }
-    
 `;
 
 export default SetNewPassword;

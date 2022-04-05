@@ -20,6 +20,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/PasswordResetComplete": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/PasswordResetComplete.js"
+    ],
     "/SetNewPassword": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

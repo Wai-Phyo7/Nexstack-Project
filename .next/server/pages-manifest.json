@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js"
+  "/SetNewPassword": "pages/SetNewPassword.js",
+  "/PasswordResetComplete": "pages/PasswordResetComplete.js"
 }

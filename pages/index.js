@@ -1,4 +1,4 @@
-import ForgetPassword from "./ForgetPassword"
+import ForgetPassword from '../components/ForgetPassword/ForgetPassword'
 
 function HomePage() {
   return(
